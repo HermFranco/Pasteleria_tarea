@@ -1,0 +1,178 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #e668adfd;;
+  padding: 0.5em;
+  
+}
+
+header img{
+  width:5%;
+  display:inline-block;
+}
+header nav{
+  text-align: right;
+  display:inline-block;
+  width:60%;
+}
+
+header ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0.5em auto;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul li{
+  display: inline-block;
+}
+
+header ul li a{
+  text-decoration:none ;
+  color: white;
+  padding: 0.3em;
+}
+
+header ul li a:active{
+  padding: 0.2em;
+}
+.banner {
+  background-color: #e71689fd;
+  text-align: center;
+}
+.banner img{
+  width: 100%;
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e668adfd;
+}
+.subtitulo{
+  text-align: center;
+}
+.flex-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+input:checked {
+  height: 1rem;
+  width: 1rem;
+}
+.flex-container img{
+  width: 10rem;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  margin: 10px;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 30px;
+}
+p2 {
+  font-size: 1rem;
+}
+.customers_table{
+  padding: 2rem;
+  align-items: center;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ }
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+#customers tr:nth-child(even){background-color: rgb(245, 208, 242);}
+
+#customers tr:hover {background-color: rgb(235, 163, 229);}
+
+#customers th {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  background-color: #e668adfd;
+  color: white;
+}
+footer{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e668adfd;;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  
+}
+footer > div {
+  text-align: center;
+  padding: 5rem;
+  margin: 1rem;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+.horario{
+  text-align: left;
+}
+.redessociales{
+  text-align: center;
+}
+.telefono{
+  text-align: center;
+}
+.Nosotros{
+ padding: 3rem;
+ width: 70%;
+ text-align: left;
+}
+.nosotros_image{
+  padding: 5rem;
+  float: right;
+  width: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e668adfd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e71689fd;
+}
+
+.container {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  width:70%;
+}
+
